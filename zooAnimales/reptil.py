@@ -26,7 +26,7 @@ class Reptil(Animal):
     
     @classmethod
     def cantidadReptiles(cls):
-        return le(cls._listado)
+        return ln(cls._listado)
     
     @classmethod
     def getListado(cls):
